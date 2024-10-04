@@ -1,0 +1,11 @@
+function PrintStr()
+	print("PrintStr")
+end
+
+function Add(a,b)
+	print(a+b)
+end
+
+function MultiplyResultFunc(a,b)
+	return a+b,a-b
+end

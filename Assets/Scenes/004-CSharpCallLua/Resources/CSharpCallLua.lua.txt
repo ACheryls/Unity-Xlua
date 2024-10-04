@@ -1,0 +1,23 @@
+a=10
+b="ch"
+c = false
+
+person ={
+	name = "siki",
+	age = 100,12,2,
+	--[
+	eat = function()
+		print("我在吃饭")
+	end
+	--]
+}
+function person:eat(a,b)  --默认带一个self的参数，代表当前table
+	print(a+b)
+end
+
+--[
+function person.eat(self,a,b)
+	print(a+b)
+end
+
+--]

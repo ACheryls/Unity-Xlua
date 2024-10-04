@@ -1,0 +1,8 @@
+person = {
+	name ="ChenHao",   --Dict
+	age = 24,  --Dict
+	11,2,4,"siki",  --int,string
+}
+function person:eat(a,b)
+	print(a+b)
+end
